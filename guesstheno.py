@@ -17,7 +17,7 @@ while noofguesses<16:
 		print "Your guess is high"
 	else:
 		noofguesses=str(noofguesses)
-		print "Your guess is right"
+		print "Your guess is correct!!!"
 		exit(0)
 
 print "Game over. You lost. Number = ", no
