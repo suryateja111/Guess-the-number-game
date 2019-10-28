@@ -8,7 +8,7 @@ while noofguesses<16:
 	guess=int(guess)
 	noofguesses=noofguesses+1
 	guessesleft=16-noofguesses
-	print "Guesses left = ", guessesleft
+	print "Number of Guesses left = ", guessesleft
 	if guess<no:
 		guessesleft=str(guessesleft)
 		print "Your guess is low"
